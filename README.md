@@ -15,3 +15,7 @@ Square Picasso
 
 Universal Image Loader
 > https://github.com/nostra13/Android-Universal-Image-Loader
+
+ ![image](https://github.com/icetingyu/Fresco_GridView/raw/master/Screenshot_related/Fresco_GridView_all.png)
+ 
+ ![image](https://github.com/icetingyu/Fresco_GridView/raw/master/Screenshot_related/Fresco_GridView_2x.gif)
