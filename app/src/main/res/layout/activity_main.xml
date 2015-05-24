@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/remoteFrescoBtn"
+        android:layout_margin="10dp"
+        android:maxEms="10"
+        android:textColor="#ffffff"
+        android:text="Remote Fresco"
+        android:background="@drawable/material_roundcorner_button_login" />
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/localFrescoBtn"
+        android:layout_margin="10dp"
+        android:maxEms="10"
+        android:layout_below="@id/remoteFrescoBtn"
+        android:textColor="#ffffff"
+        android:text="Local Fresco"
+        android:background="@drawable/material_roundcorner_button_login" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/localPicassoBtn"
+        android:layout_margin="10dp"
+        android:layout_below="@id/localFrescoBtn"
+        android:textColor="#ffffff"
+        android:text="Local Picasso"
+        android:background="@drawable/material_roundcorner_button_login" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/localUILBtn"
+        android:layout_margin="10dp"
+        android:layout_below="@id/localPicassoBtn"
+        android:textColor="#ffffff"
+        android:text="Local UIL"
+        android:background="@drawable/material_roundcorner_button_login" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/localPicassoUILBtn"
+        android:layout_margin="10dp"
+        android:layout_below="@id/localUILBtn"
+        android:textColor="#ffffff"
+        android:text="Local Picasso + UIL"
+        android:background="@drawable/material_roundcorner_button_login" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/localAllHybridBtn"
+        android:layout_margin="10dp"
+        android:layout_below="@id/localPicassoUILBtn"
+        android:textColor="#ffffff"
+        android:text="Fresco+Picasso+UIL"
+        android:background="@drawable/material_roundcorner_button_login" />
+
+</RelativeLayout>
