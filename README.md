@@ -1,4 +1,4 @@
-# Fresco_GridView
+# Fresco_GridView [Android]
 
 This is a simple project for how to load images into GridView.
 
